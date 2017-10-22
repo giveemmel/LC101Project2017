@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace LC101Project2017.Models
+{
+    public class Recipe
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+
+        public IList<Recipe> Recipes { get; set; }
+
+    }
+}
